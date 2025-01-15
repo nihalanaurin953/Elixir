@@ -1,0 +1,26 @@
+:root{
+
+    --primary-color: #4990a7;
+    --secondary-color: #616ae3;
+    --font-family: 'Arial, sans-serif';
+    --c-body: #f8f9fa;
+    --box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+    --transition: all 0.3s ease-in-out;
+
+}
+body{
+    font-family: var(--font-family);
+    /* line-height: var(--line-height); */
+    color: var(--primary-color);
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: var(--transition);
+}
+a:hover{
+    color: var(--primary-color);
+}                               
