@@ -1,10 +1,10 @@
 /* variables */
 :root{
-
+/* 
     --c-dark:#212529;
     --c-brand: #4e57d4;
     --c-brand-light: #6970dd;
-    --c-body:#727272;
+    --c-body:#727272; */
     --c-brand-rgb:78,87,212;
     --font-base: 'Poppins', sans-serif;
     --box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
@@ -15,38 +15,41 @@
 body{
     font-family: var(--font-base);
     line-height: 1.7;
-    color: var(--c-body);
+    color: rgb(239, 239, 243);
 }
 h1, h2, h3, h4, h5, h6{
     font-weight: 600;
 }
 a{
     text-decoration: none;
-    color: var(--c-brand);
+    color: #06567e;
     transition: var(--transition);
 }
 a:hover{
-    color: var(--c-brand-light);
-}  
+    color: #414ce3;
+}
 img{
     max-width: 100%;
-    height:auto
+    height:auto;
 }   
 .section-padding{
     padding-top: 140px;
     padding-bottom: 140px;
 }
 /* navbar */
+.navbar{
+    box-shadow: var(--box-shadow);
+}
 .navbar-nav .nav-link{
     font-weight: 500;
-    color: var(--c-dark);
+    color: #4b3bbf;
 }
 .nav-link .nav-link.active{
-    color: var(--c-brand);
+    color: #06567e;
 }
 
-/* btn */ 
- /* .btn{
+/* btn */
+.btn{
     
     font-size: 16px;
     font-weight: 500;
@@ -56,17 +59,19 @@ img{
 
 }
 .btn-brand{
-    background-color: var(--c-brand);
-    border-color: var(--c-brand);
-    color: white;
+    background-color: rgb(29, 71, 129);
+    border-color: rgb(98, 49, 196);
+    color: black;
 
 
 }
 .btn-brand:hover{
     background-color: #616ae3;
-    border-color: var(--c-brand-light);
+    border-color:  rgb(98, 49, 196);
     color: white;
-}  */
+}  
+
+
 
 
                            
