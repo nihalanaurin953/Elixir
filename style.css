@@ -81,7 +81,38 @@ img {
 /* hero */
 
 #hero{
-    background: linear-gradient(rgba(var(--c-brand-rgb),0.507), rgba(var(--c-brand-rgb),0.438)), url(./assets/images/hero-1.jpg) center center/cover no-repeat;
+    /* setting baground image for hero and an overlay color */
+    background: linear-gradient(rgba(var(--c-brand-rgb),0.507), rgba(var(--c-brand-rgb),0.438)), url(./assets/images/hero-1.jpg) center center/cover no-repeat;   
 
 }
+/* section title */
+.section_title{
 
+    margin-bottom: 40px;
+}
+.section_title .line{
+
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+.section_title p{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* iconbox */
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(var(--c-brand-rgb),0.2);
+    color: var(--c-brand);
+    font-size: 34px;
+    flex:none
+
+
+}
